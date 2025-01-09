@@ -1,0 +1,50 @@
+
+  .imghome{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    height: 100vh; /* Full viewport height */
+    /* background-image: url('assets/home.jpg'); */
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+  }
+  
+  .hero-content {
+    max-width: 600px; /* Limit the width of the content */
+    position:relative;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  
+  .hero h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    color:whitesmoke;
+  }
+  
+  .hero p {
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+    color: white;
+  }
+  
+  .btn-primary {
+    background-color: #007bff;
+    color: white;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0056b3;
+  }
+  
+  

@@ -1,0 +1,121 @@
+/* General form styling */
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form-outline {
+    position: relative;
+    margin-bottom: 20px;
+  }
+  
+  .form-label {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #333;
+  }
+  
+  .form-control {
+    border-radius: 5px;
+    padding: 12px 15px;
+    border: 1px solid #ccc;
+    width: 100%;
+    font-size: 1rem;
+    transition: border-color 0.3s ease;
+  }
+  
+  .form-control:focus {
+    border-color: #007bff;
+    outline: none;
+  }
+  
+  /* Checkbox and remember me text */
+  .form-check-input {
+    margin-right: 10px;
+  }
+  
+  .form-check-label {
+    font-size: 0.9rem;
+  }
+  
+  /* Row layout for checkbox and "forgot password" link */
+  .row.mb-4 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .col {
+    flex: 1;
+  }
+  
+  /* Submit button styling */
+  #sumbit {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  #sumbit:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Register buttons */
+  .text-center p {
+    font-size: 1rem;
+    color: #333;
+  }
+  
+  .text-center a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .text-center a:hover {
+    text-decoration: underline;
+  }
+  
+  .text-center .btn-link {
+    background-color: transparent;
+    border: 1px solid #ccc;
+    color: #555;
+    font-size: 1.2rem;
+    padding: 10px;
+    border-radius: 50%;
+    transition: background-color 0.3s ease;
+  }
+  
+  .text-center .btn-link:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .text-center .btn-link i {
+    color: #555;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 576px) {
+    form {
+      padding: 15px;
+    }
+  
+    .form-control {
+      font-size: 0.9rem;
+    }
+  
+    #sumbit {
+      font-size: 0.9rem;
+    }
+  }
+  
